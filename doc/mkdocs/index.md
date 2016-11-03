@@ -3,12 +3,12 @@
 Everything you need to know about using 2600Hz products
 
 ```flow
-st=>start: Start:>http://www.google.com[blank]
-e=>end:>http://www.google.com
+st=>start: Start:>https://www.google.com[blank]
+e=>end:>https://www.google.com
 op1=>operation: My Operation
 sub1=>subroutine: My Subroutine
 cond=>condition: Yes
-or No?:>http://www.google.com
+or No?:>https://www.google.com
 io=>inputoutput: catch something...
 
 st->op1->cond
@@ -24,10 +24,10 @@ C->>D: Open arrow
 D-->>A: Dashed open arrow
 ```
 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/flowchart/1.4.2/flowchart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.4.2/flowchart.min.js"></script>
 
 <script type="text/javascript">
 
