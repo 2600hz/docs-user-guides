@@ -1,5 +1,5 @@
 site_name: Product Documentation
-theme: 2600Hz_theme
+theme_dir: 2600Hz_theme
 extra:
   'version': '1.0'
 
