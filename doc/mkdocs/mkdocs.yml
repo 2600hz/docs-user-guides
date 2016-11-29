@@ -9,4 +9,3 @@ markdown_extensions:
 
 pages:
 - 'index.md'
-- 'doc/missing.md'
