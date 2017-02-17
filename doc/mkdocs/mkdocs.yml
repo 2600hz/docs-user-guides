@@ -8,4 +8,4 @@ markdown_extensions:
 pages:
 - 'index.md'
 - 'Configuration':
-  - 'Zoiper Softphone':'doc/manual_phone_config/zoiper.md'
+  - 'Zoiper Softphone': 'doc/manual_phone_config/zoiper.md'
