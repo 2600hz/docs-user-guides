@@ -4,6 +4,7 @@ theme_dir: 2600Hz_theme
 markdown_extensions:
   - pymdownx.pymdown
   - pymdownx.superfences
+  - pyembed.markdown
 
 pages:
 - 'index.md'
