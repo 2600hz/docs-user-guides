@@ -4,8 +4,19 @@ theme_dir: 2600Hz_theme
 markdown_extensions:
   - pymdownx.pymdown
   - pymdownx.superfences
+  - pyembed.markdown
 
 pages:
 - 'index.md'
+- 'Onboarding':
+  - 'doc/onboarding/README.md'
+  - 'MonsterUI':
+    - 'Accessing Your Account': 'doc/onboarding/monster_ui/accessing_your_account.md'
+    - 'Adding Apps': 'doc/onboarding/monster_ui/adding_apps.md'
+    - 'Add Main Number': 'doc/onboarding/monster_ui/main_number.md'
+    - 'Add Credit Card': 'doc/onboarding/monster_ui/credit_card.md'
+    - 'Add Trunks': 'doc/onboarding/monster_ui/trunking.md'
+  - 'First Office Setup':
+    - 'doc/onboarding/first_office/README.md'
 - 'Configuration':
   - 'Zoiper Softphone': 'doc/manual_phone_config/zoiper.md'
