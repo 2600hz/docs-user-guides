@@ -1,0 +1,12 @@
+* How to provision a brand of phone
+
+This provides the step by step process from after adding a device to completing
+
+- Step 1: Add device through the UI
+  - link to instructions
+- Step 2: Log into phone
+- Step 3: add provisioning url
+- Step 4: auto provision results
+
+** Other brands links
+

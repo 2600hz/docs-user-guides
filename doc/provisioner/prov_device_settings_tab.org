@@ -1,0 +1,20 @@
+* Provisioner Device Settings Tab
+
+Provides information for the target tab (Lines, Keys, etc.) and any info that users should keep an eye on (e.g. Inherits from Account 1 is only true for Key 1).
+
+** Sections available across all brands
+- Section 1
+  - recommended settings
+- Section 2
+  - recommended settings
+
+** brand specific sections
+- Section 1
+  - recommended settings
+
+
+** Links to next section
+- Lines
+- Settings
+- Preferences
+- etc.

@@ -1,0 +1,18 @@
+* Guide for setting a commonly used feature
+
+This is a step by step guide to provision a specific feature such as BLF or multiple lines as well as unique features such as Polycom's custom firmware or custom config file.
+
+** Step by step on how to add the feature
+- Step 1
+  - instructions
+  - picture of expected result
+- Step 2
+  - instructions
+  - picture of expected result
+- Step ***
+  - instructions
+  - picture of expected result
+
+** Links
+- Link to setting tab info for more settings on the same page
+- Link to other common guides
