@@ -18,8 +18,27 @@ pages:
     - 'Add Trunks': 'doc/onboarding/monster_ui/trunking.md'
   - 'First Office Setup':
     - 'doc/onboarding/first_office/README.md'
-- 'Configuration':
-  - 'Zoiper Softphone': 'doc/manual_phone_config/zoiper.md'
+- 'Branding':
+  - 'doc/branding/README.md'
+- 'Carriers':
+  - 'doc/carriers/README.md'
+- 'Conferences':
+  - 'doc/conferences/README.md'
+- 'Faxing':
+  - 'doc/faxing/README.md'
+- 'Mobile':
+  - 'doc/mobile/README.md'
+- 'Numbers':
+  - 'doc/numbers/README.md'
+- 'PBXes':
+  - 'doc/pbxes/README.md'
+- 'Porting':
+  - 'doc/porting/README.md'
 - 'Provisioner':
+  - 'doc/provisioner/README.md'
   - 'Grandstream':
-    - 'GXP 21xx': 'doc/provisioner/grandstream_gxp21xx_provisioning_guide.md'
+    - 'GXP 21xx': 'doc/provisioner/grandstream/gxp21xx_provisioning_guide.md'
+  - 'Softphones':
+    - 'Zoiper': 'doc/manual_phone_config/zoiper.md'
+- 'Whitelabel':
+  - 'doc/whitelabel/README.md'
