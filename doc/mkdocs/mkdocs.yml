@@ -20,3 +20,6 @@ pages:
     - 'doc/onboarding/first_office/README.md'
 - 'Configuration':
   - 'Zoiper Softphone': 'doc/manual_phone_config/zoiper.md'
+- 'Provisioner':
+  - 'Grandstream':
+    - 'GXP 21xx': 'doc/provisioner/grandstream_gxp21xx_provisioning_guide.md'
