@@ -2,8 +2,6 @@ site_name: Product Documentation
 theme_dir: 2600Hz_theme
 
 markdown_extensions:
-  - pymdownx.pymdown
-  - pymdownx.superfences
   - pyembed.markdown
 
 pages:
