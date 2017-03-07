@@ -1,4 +1,8 @@
 machine:
+  python:
+    version: 2.7.13
+  post:
+    - pyenv global 2.7.13
 
 dependencies:
   pre:
