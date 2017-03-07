@@ -1,0 +1,10 @@
+machine:
+
+dependencies:
+  pre:
+    - pip -q install --upgrade pip
+    - pip -q install PyYAML mkdocs pyembed-markdown
+
+test:
+  pre:
+    - make docs
