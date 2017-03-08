@@ -24,51 +24,72 @@ The following items are all considered pay-per-use services:
 
 ## User Portal Conferencing
 
+User Portal Conferencing Tab is a simple way for an individual the manage their personal conference bridge.
+
 If you click on the Conference tab in "User Portal"
 
-To add credit:
+Under Setting
 
-   1. Click your Control Center
-   ![Control Center](images/credit_1.png)
+Image
 
-   2. Select Per Minute on the left hand side
-   ![Per Minute](images/credit_2.png)
+Call-in Number:  This is the number to reach the general conference bridge (set up in SmartPBX)
+Conference Number:  This is your private room (this is set up in SmartPBX)
+Moderator PIN:  The pin number for the moderator to login (not required)
+Participant PIN: The pin number for Paricipant to join (not required)
 
-   3. At the top of the screen, select Add Credit
-   ![Add Credit](images/credit_3.png)
+(checkbox) Participants join the conference muted:  Participants can not speak
+(checkbox) Participants join the conference deaf:  Participants can not hear
+(checkbox) Play entry tone: Anytime during the conference, a tone is played when participant joins the bridge
+(checkbox) Play exit tone:  ANytime during the conference, a tone is played when a participant leaves the bridge
 
-   4. Enter an amount to add and click Add Credit
-   ![Finish Adding Credit](images/credit_4.png)
+Global Controls:
 
+Image
 
-
-## Per-Minute Services
-
-Per-minute services require you to deposit money into the account before you start making calls.
-
-To add credit to your account, click "Per Minute" just left of the main dashboard.
-
-Then Add Credit (must be a minimum of $5).
-
-
-## SIP Trunks
-
-SIP Trunks are flat-rate channels that allow for inbound and outbound calling.
-
-When you are within Settings, you can locate Trunking just left of the dashboard.
-
-You have three trunking options:
-    * __Outbound__: the number of concurrent outbound calls you can make at once.
-    * __Inbound__ – the number of concurrent inbound calls that can be made at once.
-    * __Two-Way__ - the number of concurrent inbound and outbound calls that can be made at once.
+Lock:  Lock the bridge to not allow any other participants to join
+Mute:  Mute All (Participants and Moderator)
+Unmute Participants:  Un-Mute All (Participants and Moderator)
+Hangup: Hangup the bridge (kicks everyone)
 
 
-## Billing
+## SmartPBX Conference Bridge
 
-Once SIP trunks are set up, users will be billed on a recurring monthly basis and can be seen in the Service Plan within Settings.
+The SmartPBX Conferencing services is to set up a general Conference company conference bridge and create individual conference bridge
 
-Per-Minute Billing will be ongoing until it runs out, then it will need to be recharged.
+Creating a Main Conference Number (to be used to get to all user's conference bridge - THIS MUST BE DONE FIRST)
 
-Auto-recharge is available.
+Step one: Confirming The Main Conference Bridge Number
+Image 
 
-[!embed](https://www.youtube.com/watch?v=O4uVS6KGlho)
+To add a number: Click on the "Add from Spare Numbers"
+(You can add multiple numbers)
+Each of these numbers will represent the same general conference bridge.
+
+Custom Greeting:  Click on "Custom Greeting" (You must have a Text To Speech provider enabled - 2600Hz is an option)
+Click "Disabled"
+Type in your greeting in the main box
+Hit "Save"
+
+User Access to the Conference Bridge
+Click on the "User Tab"
+
+Click the far right box on the User you wish to enable the conference bridge
+
+Click on "Conference Bridge"
+
+Click "Disabled" toggle (to enable)
+*You will see the Main Conference number by: Conferencing Phone Number(s)
+
+Next to Personal Conference Room number type in the number (we recommend using your standard 4 digit extension number if you have one).  Pro Tip - If you get an error most likely it is because someone is already using this number.
+
+Congratulations, you now have a conference bridge
+
+
+
+
+## Conference Bridge Manager
+
+
+
+
+
