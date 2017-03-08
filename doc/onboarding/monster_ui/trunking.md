@@ -5,6 +5,8 @@ Usage based services are pre-pay services charged against your account each time
 > Who can use this feature?
 > This feature is available to Hosted Platform users.
 
+
+
 ### What You Should Know
 
 The following items are all considered pay-per-use services:
@@ -17,22 +19,24 @@ The following items are all considered pay-per-use services:
 >> Keep in Mind: Depending on your business needs, some services may be included in your service plan at no charge. Typical examples are US long distance calling. You should check your service agreement for details.
 
 
+
 ### Adding Credit to Your Account
 
 In order to utilize pay-per-use services you must first deposit money into your account. These funds represent your available balance (or "credit") and remain in the account until depleted. These amounts also roll over monthly.
 
 To add credit:
-1. Click your Control Center
-![Control Center](images/credit_1.png)
 
-2. Select Per Minute on the left hand side
-![Per Minute](images/credit_2.png)
+   1. Click your Control Center
+   ![Control Center](images/credit_1.png)
 
-3. At the top of the screen, select Add Credit
-![Add Credit](images/credit_3.png)
+   2. Select Per Minute on the left hand side
+   ![Per Minute](images/credit_2.png)
 
-4. Enter an amount to add and click Add Credit
-![Finish Adding Credit](images/credit_4.png)
+   3. At the top of the screen, select Add Credit
+   ![Add Credit](images/credit_3.png)
+
+   4. Enter an amount to add and click Add Credit
+   ![Finish Adding Credit](images/credit_4.png)
 
 
 
