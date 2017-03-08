@@ -11,12 +11,14 @@ Conferencing:  Setting up Conference bridges via the Smart PBX, Conference Bridg
 
 ## What You Should Know
 
-The following items are all considered pay-per-use services:
+The following items are all different ways to configure and access conference bridge services on Kazoo:
 
 | Service Name | Description |
 | --- | --- |
-| International Calls | Billing occurs for each minute that elapses for answered calls |
-| Number Ports | A one-time fee is charged for each number you port into the system |
+| User Portal Conferencing | How to manager and change a conference bridge from the User level |
+| SmartPBX Conferencing | Setting up Master Account Conference bridge and enabling a user level access |
+| Conference Manager | Managing all the Conference bridges in real time from one portal |
+
 
 >> Keep in Mind: Depending on your business needs, some services may be included in your service plan at no charge.
 
