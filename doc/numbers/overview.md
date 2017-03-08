@@ -77,6 +77,7 @@ Acquiring and managing the phone numbers on an account is simple in Kazoo.  Usin
 
 ## Setting the Company Emergency Address
 
+
 1. Switch to the SmartPBX application and select the `Main Number` tab
 ![SmartPBX](smartpbx/main-number-features/step-1.png)
 
