@@ -10,7 +10,7 @@ Acquiring and managing the phone numbers on an account is simple in Kazoo.  Usin
 
 ## Purchasing the Company Main Numbers
 
-1. Switch to the SmartPBX application and select the `Main Number` tab.
+1. Switch to the SmartPBX application and select the `Main Number` tab
 ![SmartPBX](smartpbx/main-number-local/step-1.png)
 
 2. Expand the `Main Company Numbers`, then click the `Buy Numbers` and select `Local`
@@ -27,7 +27,7 @@ Acquiring and managing the phone numbers on an account is simple in Kazoo.  Usin
 
 ## Purchasing Company Toll-Free Numbers
 
-1. Switch to the SmartPBX application and select the `Main Number` tab.
+1. Switch to the SmartPBX application and select the `Main Number` tab
 ![SmartPBX](smartpbx/main-numbers-toll/step-1.png)
 
 2. Expand the `Main Company Numbers`, then click the `Buy Numbers` and select `Toll-free`
@@ -44,10 +44,10 @@ Acquiring and managing the phone numbers on an account is simple in Kazoo.  Usin
 
 ## Purchasing Numbers for Users
 
-1. Switch to the SmartPBX application and select the `Users` tab.
+1. Switch to the SmartPBX application and select the `Users` tab
 ![SmartPBX](smartpbx/users/step-1.png)
 
-2. In the column under `Phone Numbers` click on the row with the User to add a phone number to.
+2. In the column under `Phone Numbers` click on the row with the User to add a phone number to
 ![SmartPBX user phone number selection](smartpbx/users/step-2.png)
 
 3. Select `Local` or `Toll-free` and follow the same steps as indicated above to complete the purchase.
@@ -55,29 +55,29 @@ Acquiring and managing the phone numbers on an account is simple in Kazoo.  Usin
 
 ## Purchasing Company Conference Numbers
 
-1. Switch to the SmartPBX application and select the `Main Number` tab.
+1. Switch to the SmartPBX application and select the `Main Number` tab
 ![SmartPBX](smartpbx/main-conference/step-1.png)
 
 2. Expand the `Main Conference Number`, then click the `Buy Numbers`
 ![SmartPBX conference number list](smartpbx/main-conference/step-2.png)
 
-3. Select `Local` or `Toll-free` and follow the same steps as indicated above to complete the purchase.
+3. Select `Local` or `Toll-free` and follow the same steps as indicated above to complete the purchase
 ![SmartPBX conference phone number type selection](smartpbx/main-conference/step-3.png)
 
 ## Purchasing Company Fax Number
 
-1. Switch to the SmartPBX application and select the `Main Number` tab.
+1. Switch to the SmartPBX application and select the `Main Number` tab
 ![SmartPBX](smartpbx/main-faxbox/step-1.png)
 
 2. Expand the `Main Faxbox Number`, then click the `Buy Numbers`
 ![SmartPBX faxbox number list](smartpbx/main-faxbox/step-2.png)
 
-3. Select `Local` or `Toll-free` and follow the same steps as indicated above to complete the purchase.
+3. Select `Local` or `Toll-free` and follow the same steps as indicated above to complete the purchase
 ![SmartPBX faxbox phone number type selection](smartpbx/main-faxbox/step-3.png)
 
 ## Setting the Company Emergency Address
 
-1. Switch to the SmartPBX application and select the `Main Number` tab.
+1. Switch to the SmartPBX application and select the `Main Number` tab
 ![SmartPBX](smartpbx/main-number-features/step-1.png)
 
 2. Expand the `Main Comany Numbers`, then click the gear icon next to the number and select `e911`
@@ -91,7 +91,7 @@ Acquiring and managing the phone numbers on an account is simple in Kazoo.  Usin
 
 ## Using Spare Numbers
 
->> A spare number is one that has been purchased for the account then `unassigned` but not deleted.
+>> Keep in Mind: A spare number is one that has been purchased for the account then `unassigned` but not deleted.
 
 1. Switch to the SmartPBX application and proceed as you would for number purchasing
 ![SmartPBX](smartpbx/main-spare/step-1.png)
@@ -102,3 +102,41 @@ Acquiring and managing the phone numbers on an account is simple in Kazoo.  Usin
 3. Select the spare numbers and click on `Add selected numbers`
 ![SmartPBX company number spare](smartpbx/main-spare/step-3.png)
 
+## Removing Numbers
+
+>> Keep in Mind: A spare number is one that has been purchased then `unassigned`.
+
+1. Switch to the SmartPBX application and and select the `Numbers` tab
+![SmartPBX](smartpbx/numbers/step-1.png)
+
+2. Click on `Spare Numbers` and select the numbers for removal
+![SmartPBX number list](smartpbx/numbers/step-2.png)
+
+3. Click the `Delete` option that appears
+![SmartPBX number list with delete highlight](smartpbx/numbers/step-3.png)
+
+4. If you are sure that the numbers are no longer required click `Delete number(s)`.  Once removed they are gone forever
+![SmartPBX number delete accept pop-up](smartpbx/numbers/step-4.png)
+
+## Listing all In-Use Numbers for the Account
+
+>> Keep in Mind: An in-use number has an assignment to a company main number, user, device, SIP trunk, callflow, conference, pivot application, ect.
+
+1. Switch to the Number Manager application
+![Number Manager](number-manager/in-use/step-1.png)
+
+2. Click on `In-Use`
+![Number Manager in use](number-manager/in-use/step-2.png)
+
+## Moving Numbers to Another Account
+
+>> Keep in Mind: Only spare numbers can be moved between accouts, if a number is in use select the application using it and choose `unassign`
+
+1. Switch to the Number Manager application
+![Number Manager](number-manager/in-use/step-1.png)
+
+2. Select the `Move To` option at the top of the list
+![Number Manager in move to](number-manager/in-use/step-2.png)
+
+3. Click on the account to move the numbers to
+![Number Manager move to account selection](number-manager/in-use/step-3.png)
