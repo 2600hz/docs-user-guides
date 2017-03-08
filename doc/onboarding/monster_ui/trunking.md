@@ -9,10 +9,10 @@ Usage based services are pre-pay services charged against your account each time
 
 The following items are all considered pay-per-use services:
 
-| Service Name        | Description                                                        |
-| ------------------- |:------------------------------------------------------------------:|
-| International Calls | Billing occurs for each minute that elapses for answered calls     |
-| Number Ports        | A one-time fee is charged for each number you port into the system |
+| Service Name | Description |
+| --- | --- |
+| International Calls | Billing occurs for each minute that elapses for answered calls |
+| Number Ports | A one-time fee is charged for each number you port into the system |
 
 >> Keep in Mind: Depending on your business needs, some services may be included in your service plan at no charge. Typical examples are US long distance calling. You should check your service agreement for details.
 
