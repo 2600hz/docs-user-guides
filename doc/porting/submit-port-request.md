@@ -1,6 +1,6 @@
 # Getting Started With Port Manager
 
-So lets get this ball rolling and go over how to submit a Port Request through the Port Manager application
+So lets get this ball rolling and go over how to submit and review a Port Request through the Port Manager application.
 
 > Who can use this feature?
 
@@ -12,11 +12,8 @@ Here's some terminology you may encounter while submitting a port request:
 
 | Service Name | Description |
 | --- | --- |
-| Item1 | Item1 Description |
-| Item2 | Item2 Description |
-
->> Keep in Mind: look! a tip goes here!
-
+| LOA | The LOA (Letter Of Authorization) is used when porting regular telephone numbers. |
+| RespOrg | The RespOrg (Responsible Organization) is used when porting Toll-free numbers. |
 
 
 ## Your Step-by-Step Guide to Glory
@@ -25,7 +22,7 @@ Here's some terminology you may encounter while submitting a port request:
 
 >> Don't fret, you can add additional numbers at your hearts desire during this process, even though we use an example of one number for this guide!
 
-1. Let's get this kicked off. First, hop into the Port Manager application. It looks like this:
+1. Let's get this kicked off.  First, hop into the Port Manager application. It looks like this:
 ![Port Manager App](submit1.jpg)
 
 2. Once we're inside the app, click "New Port Request".
@@ -60,3 +57,18 @@ Here's some terminology you may encounter while submitting a port request:
 
 12. Lets choose a date we prefer, then review our settings and SUBMIT! Woohoo! (or save and come back later, I suppose.)
 ![Final Submit](submit12.jpg)
+
+
+## Ensuring Information Is Correct 
+So you've got the hard part out of the way... or do you? 🤔 How about we pull up your recently created Port Request and verify everything looks a-okay?!
+
+1. First we need to locate the Port Request we previously made. It was named "My Port Request", remember?
+![View Port Request](view1.jpg)
+
+2. Now lets click that tell-tale little cog over on the right. 
+![Cog View](view2.jpg)
+
+3. Score! Now we can just glance over everything and make sure we didn't make any embarassing errors.
+![View Port Request Detail](view3.jpg)
+
+4. All done! Now we wait. 🙂🙃🙂🙃
