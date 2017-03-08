@@ -3,16 +3,8 @@
 Acquiring and managing the phone numbers on an account is simple in Kazoo.  Using the available applications adminstrators can purchase new numbers with instant activation, manage features such the emergency address, assign to users or devices and move them between accounts.
 
 > Who can use this feature?
-> All adminstrators have access to these features.
 
-## What You Should Know
-
-Stuff goes here:
-
-| Service Name | Description |
-| --- | --- |
-| DID |  |
-| Item2 | Item2 Description |
+> All adminstrators on any Kazoo deployment.
 
 >> Keep in Mind: After clicking `Buy Numbers` you may be presented with the changes to the monthly billing amount.  Clicking `Accept` will allow the numbers to be purchased or `Cancel` will make no change.
 
@@ -36,7 +28,7 @@ Stuff goes here:
 ## Purchasing Company Toll-Free Numbers
 
 1. Switch to the SmartPBX application and select the `Main Number` tab.
-![SmartPBX](smartpbx/main-numer-toll/step-1.png)
+![SmartPBX](smartpbx/main-numbers-toll/step-1.png)
 
 2. Expand the `Main Company Numbers`, then click the `Buy Numbers` and select `Toll-free`
 ![SmartPBX main company numbers toll-free](smartpbx/main-number-toll/step-2.png)
@@ -58,10 +50,7 @@ Stuff goes here:
 2. In the column under `Phone Numbers` click on the row with the User to add a phone number to.
 ![SmartPBX user phone number selection](smartpbx/users/step-2.png)
 
-3. In the column under `Phone Numbers` click on the row with the User to add a phone number to.
-![SmartPBX user phone number list](smartpbx/users/step-2.png)
-
-4. Select `Local` or `Toll-free` and follow the same steps as indicated above to complete the purchase.
+3. Select `Local` or `Toll-free` and follow the same steps as indicated above to complete the purchase.
 ![SmartPBX user phone number type selection](smartpbx/users/step-3.png)
 
 ## Purchasing Company Conference Numbers
@@ -89,16 +78,16 @@ Stuff goes here:
 ## Setting the Company Emergency Address
 
 1. Switch to the SmartPBX application and select the `Main Number` tab.
-![SmartPBX](smartpbx/main-features/step-1.png)
+![SmartPBX](smartpbx/main-number-features/step-1.png)
 
 2. Expand the `Main Comany Numbers`, then click the gear icon next to the number and select `e911`
-![SmartPBX company number list with features](smartpbx/main-features/step-2.png)
+![SmartPBX company number list with features](smartpbx/main-number-features/step-2.png)
 
 3. Enter the emergency address and click add
-![SmartPBX emergency address entry](smartpbx/main-features/step-3.png)
+![SmartPBX emergency address entry](smartpbx/main-number-features/step-3.png)
 
 4. Ensure the emergency enabled icon appears
-![SmartPBX emergency address entry](smartpbx/main-features/step-4.png)
+![SmartPBX emergency address entry](smartpbx/main-number-features/step-4.png)
 
 ## Using Spare Numbers
 
