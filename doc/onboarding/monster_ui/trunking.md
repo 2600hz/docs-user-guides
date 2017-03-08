@@ -1,27 +1,27 @@
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+# Usage Based Services
 
-Quote break.
+Usage based services are pre-pay services charged against your account each time you use them. You deposit money into your account, then as you use certain per-use features (such as international calls) the cost is deducted from your balance.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> Who can use this feature?
+> This feature is available to Hosted Platform users.
 
-Test
+## What You Should Know
+
+The following items are all considered pay-per-use services:
+
+| Service Name        | Description                                                        |
+| ------------------- |:------------------------------------------------------------------:|
+| International Calls | Billing occurs for each minute that elapses for answered calls     |
+| Number Ports        | A one-time fee is charged for each number you port into the system |
+
+>> Keep in Mind: Depending on your business needs, some services may be included in your service plan at no charge. Typical examples are US long distance calling. You should check your service agreement for details.
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 
-# Adding Per Minute Services and Trunking
+# Adding Credit to Your Account
 
-Create and set limits for users that include inbound and outbound trunks, and per minute credits.
-
-2600Hz allows you to bill your users for both trunks and per-minute credits at once.
-
-So if users exceed the number of trunks they are allocated, you can add per-minute credits.
+In order to utilize pay-per-use services you must first deposit money into your account. These funds represent your available balance (or "credit") and remain in the account until depleted. These amounts also roll over monthly.
 
 
 ## Per-Minute Services
