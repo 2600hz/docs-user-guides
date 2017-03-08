@@ -24,11 +24,14 @@ In order to utilize pay-per-use services you must first deposit money into your 
 To add credit:
 1. Click your Control Center
 ![Control Center](images/credit_1.png)
-1. Select Per Minute on the left hand side
+
+2. Select Per Minute on the left hand side
 ![Per Minute](images/credit_2.png)
-1. At the top of the screen, select Add Credit
+
+3. At the top of the screen, select Add Credit
 ![Add Credit](images/credit_3.png)
-1. Enter an amount to add and click Add Credit
+
+4. Enter an amount to add and click Add Credit
 ![Finish Adding Credit](images/credit_4.png)
 
 
