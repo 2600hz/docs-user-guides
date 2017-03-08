@@ -27,7 +27,7 @@ pages:
 - 'Mobile':
   - 'doc/mobile/README.md'
 - 'Numbers':
-  - 'doc/numbers/README.md'
+  - 'doc/numbers/overview.md'
 - 'PBXes':
   - 'doc/pbxes/README.md'
 - 'Porting':
