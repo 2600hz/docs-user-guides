@@ -45,7 +45,7 @@ The **Help / Wiki Link** and **Terms and Conditions Link** are official company 
 
 ###Browser Tab Name
 
-This ##Browser Tab Name## will appear in the title section of the browser.
+This **Browser Tab Name** will appear in the title section of the browser.
 
 ###Powered by 2600hz
 
