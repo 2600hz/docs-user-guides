@@ -1,13 +1,17 @@
-## Usage Based Services
+# Usage Based Services
 
 Usage based services are pre-pay services charged against your account each time you use them. You deposit money into your account, then as you use certain per-use features (such as international calls) the cost is deducted from your balance.
 
 > Who can use this feature?
 > This feature is available to Hosted Platform users.
 
+> Who can use this feature?
+> The Branding App is a commercial feature available on the Hosted Platform, Private Cloud and Global Infrastructure.
 
 
-### What You Should Know
+
+
+## What You Should Know
 
 The following items are all considered pay-per-use services:
 
@@ -20,7 +24,7 @@ The following items are all considered pay-per-use services:
 
 
 
-### Adding Credit to Your Account
+## Adding Credit to Your Account
 
 In order to utilize pay-per-use services you must first deposit money into your account. These funds represent your available balance (or "credit") and remain in the account until depleted. These amounts also roll over monthly.
 
@@ -40,7 +44,7 @@ To add credit:
 
 
 
-### Per-Minute Services
+## Per-Minute Services
 
 Per-minute services require you to deposit money into the account before you start making calls.
 
@@ -49,7 +53,7 @@ To add credit to your account, click "Per Minute" just left of the main dashboar
 Then Add Credit (must be a minimum of $5).
 
 
-### SIP Trunks
+## SIP Trunks
 
 SIP Trunks are flat-rate channels that allow for inbound and outbound calling.
 
@@ -61,7 +65,7 @@ You have three trunking options:
     * __Two-Way__ - the number of concurrent inbound and outbound calls that can be made at once.
 
 
-### Billing
+## Billing
 
 Once SIP trunks are set up, users will be billed on a recurring monthly basis and can be seen in the Service Plan within Settings.
 
