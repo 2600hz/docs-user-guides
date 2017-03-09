@@ -30,9 +30,11 @@ User Portal Conferencing Tab is a simple way for an individual the manage their 
 
 If you click on the Conference tab in "User Portal"
 
+![User Portal](./images/UserPortal_Conference.png "User Portal")
+
 Under Setting
 
-Image
+![Settings](./images/UserPortal_Conf Settings.png "Conference Settings")
 
 Call-in Number:  This is the number to reach the general conference bridge (set up in SmartPBX)
 Conference Number:  This is your private room (this is set up in SmartPBX)
@@ -46,7 +48,8 @@ Participant PIN: The pin number for Paricipant to join (not required)
 
 Global Controls:
 
-Image
+![Global Controls](./images/UserPortal_Conf commands.png "Global Controls")
+
 
 Lock:  Lock the bridge to not allow any other participants to join
 Mute:  Mute All (Participants and Moderator)
@@ -60,17 +63,26 @@ The SmartPBX Conferencing services is to set up a general Conference company con
 
 Creating a Main Conference Number (to be used to get to all user's conference bridge - THIS MUST BE DONE FIRST)
 
-Step one: Confirming The Main Conference Bridge Number
-Image 
+![Main Conference Number](./images/Screen Shot 2017-03-07 at 10.05.54 PM.png "Main Conference Number")
 
-To add a number: Click on the "Add from Spare Numbers"
+Step One:  Add a number: Click on the "Add from Spare Numbers"
 (You can add multiple numbers)
 Each of these numbers will represent the same general conference bridge.
 
+Step Two: Confirming The Main Conference Bridge Number
+
+![Main Conferince #](./images/SmartPBX Conference Bridge.png "Main Conference Number")
+
 Custom Greeting:  Click on "Custom Greeting" (You must have a Text To Speech provider enabled - 2600Hz is an option)
-Click "Disabled"
+Click "Disabled" to toggle it
+![Text To Speech](./images/Custom Greeting TTS.png "Enable TTS")
+
+
+
 Type in your greeting in the main box
 Hit "Save"
+![Text To Speech](./images/Custom Greeting Enabled TTS.png "Enable TTS")
+
 
 User Access to the Conference Bridge
 Click on the "User Tab"
@@ -78,6 +90,9 @@ Click on the "User Tab"
 Click the far right box on the User you wish to enable the conference bridge
 
 Click on "Conference Bridge"
+
+![Turning on User Conference Bridge](./images/Individual Conference Bridge.png "User Conference Bridge")
+
 
 Click "Disabled" toggle (to enable)
 *You will see the Main Conference number by: Conferencing Phone Number(s)
