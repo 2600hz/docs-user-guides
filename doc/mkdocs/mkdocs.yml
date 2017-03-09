@@ -37,6 +37,7 @@ pages:
 - 'Provisioner':
   - 'doc/provisioner/prov_start_guide.md'
   - 'Configuring Failover': 'doc/provisioner/failover/failover.md'
+  - 'Configuring GeoIP': 'doc/provisioner/geoip/geoip.md'
   - 'Cisco':
     - 'doc/provisioner/cisco/cisco_provisioning_guide.md'
   - 'Grandstream':
