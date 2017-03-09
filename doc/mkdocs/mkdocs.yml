@@ -38,17 +38,19 @@ pages:
   - 'doc/provisioner/prov_start_guide.md'
   - 'Configuring Failover': 'doc/provisioner/failover/failover.md'
   - 'Configuring GeoIP': 'doc/provisioner/geoip/geoip.md'
-  - 'Cisco':
-    - 'doc/provisioner/cisco/cisco_provisioning_guide.md'
-  - 'Grandstream':
-    - 'GXP 21xx': 'doc/provisioner/grandstream/gxp21xx_provisioning_guide.md'
-  - 'Obihai':
-    - 'doc/provisioner/obihai/obihai_provisioning_guide.md'
-  - 'Polycom':
-    - 'doc/provisioner/polycom/polycom_provisioning_guide.md'
-  - 'Softphones':
-    - 'Zoiper': 'doc/manual_phone_config/zoiper.md'
-  - 'Yealink':
-    - 'doc/provisioner/yealink/yealink_provisioning_guide.md'
+  - 'Security': 'doc/provisioner/security/security.md'
+  - 'Phones':
+    - 'Cisco':
+      - 'doc/provisioner/cisco/cisco_provisioning_guide.md'
+    - 'Grandstream':
+      - 'GXP 21xx': 'doc/provisioner/grandstream/gxp21xx_provisioning_guide.md'
+    - 'Obihai':
+      - 'doc/provisioner/obihai/obihai_provisioning_guide.md'
+    - 'Polycom':
+      - 'doc/provisioner/polycom/polycom_provisioning_guide.md'
+    - 'Softphones':
+      - 'Zoiper': 'doc/manual_phone_config/zoiper.md'
+    - 'Yealink':
+      - 'doc/provisioner/yealink/yealink_provisioning_guide.md'
 - 'Whitelabel':
   - 'doc/whitelabel/README.md'
