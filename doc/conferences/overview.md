@@ -17,7 +17,7 @@ The following items are all different ways to configure and access conference br
 | --- | --- |
 | User Portal Conferencing | How to manager and change a conference bridge from the User level |
 | SmartPBX Conferencing | Setting up Master Account Conference bridge and enabling a user level access |
-// | Conference Manager | Managing all the Conference bridges in real time from one portal |
+// | Conference Manager | // Managing all the Conference bridges in real time from one portal |
 
 
 >> Keep in Mind: Depending on your business needs, some services may be included in your service plan at no charge.
@@ -104,8 +104,8 @@ Congratulations, you now have a conference bridge
 
 
 
-## Conference Bridge Manager
-TBD
+// ## Conference Bridge Manager
+// TBD
 
 
 
