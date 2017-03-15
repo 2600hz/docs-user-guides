@@ -8,7 +8,7 @@ This is a guide to auto-provision a Cisco SPA 300, 500 and 900 series.
 ## Steps to Auto Provision device
 
 1. Add Device
-    - First add the device to Provisioner by following the instructions here: [Adding Devices Guide](./prov_start_guide.md)
+    - First add the device to Provisioner by following the instructions here: [Adding Devices Guide](../prov_start_guide.md)
 2. Reset to Factory Settings
     - Please also make sure that you have reset your device to factory settings. In most cases, you will have to reboot the phone manually the first time and it will then reboot and load the configuration automatically (It might take a few minutes).
     - To Factory Reset a Cisco device:

@@ -8,7 +8,7 @@ This is a guide to auto-provision a Grandstream [GXP21xx](http://www.grandstream
 ## Steps to Auto Provision device
 
 1. Add Device
-    - First add the device to Provisioner by following the instructions here: [Adding Devices Guide](./prov_start_guide.md)
+    - First add the device to Provisioner by following the instructions here: [Adding Devices Guide](../prov_start_guide.md)
 2. Reset to Factory Settings
     - Please also make sure that you have reset your device to factory settings. To do so, hit the center button on the directional pad, navigate to "System" and then "Factory Reset".
 3. Obtain Phone’s IP Address

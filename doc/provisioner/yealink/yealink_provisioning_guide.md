@@ -8,7 +8,7 @@ This is a guide to auto-provision a [Yealink](http://yealink.com/product_list.as
 ## Steps to Auto Provision device
 
 1. Add Device
-    - First add the device to Provisioner by following the instructions here: [Adding Devices Guide](./prov_start_guide.md)
+    - First add the device to Provisioner by following the instructions here: [Adding Devices Guide](../prov_start_guide.md)
 2. Reset to Factory Settings
     - Please also make sure that you have reset your device to factory settings. To do so, select “OK” and hold down for six seconds. The device will ask if you want to reset to factory settings, select ”OK.”
 3. Obtain Phone’s IP Address
