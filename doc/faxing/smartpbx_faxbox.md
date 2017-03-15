@@ -70,7 +70,7 @@ We will go through the info and expand on it.
    ![From Email](from_email.png)
 3. The to email address needs to be made up of the following:
    ![From Email](from_email.png)
-	1. The phone number the fax needs to be sent to. It uses the same dialing rules as making a call from any account device and must not have non numeric characters other than a leading +. It can take advantage of short dial completion just like a user's phone.
+	1. The phone number the fax needs to be sent to. It must be at least 10 digits for a North American destination and the full international number for other locations and have a international indicator like 001 or +. It must not have non numeric characters other than a leading +.
 	2. The @ symbol followed by the account's realm.
 
 4. The "Show Help" at the bottom will allow you to enter a sample destination number to show how the To email address would be to send to that phone number.

@@ -24,7 +24,7 @@ pages:
   - 'doc/conferences/README.md'
 - 'Faxing':
   - 'doc/faxing/README.md'
-  - 'SmartPBX Faxboxes': 'doc/faxing/smartbpx_faxbox.md'
+  - 'SmartPBX Faxboxes': 'doc/faxing/smartpbx_faxbox.md'
   - 'Notifications': 'doc/faxing/fax_event_notifications.md'
 - 'Mobile':
   - 'doc/mobile/README.md'
