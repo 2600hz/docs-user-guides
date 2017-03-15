@@ -22,7 +22,7 @@ This is a guide to auto-provision an [Obihai](http://www.obihai.com/product-prim
     ![Obihai Start](./images/obihai-start.png)
 4. Autoprovision Device
     - Most of the information as you will see has already been pre-populated. You’ll need to click on System Management on the side, then click on Auto Provisioning. Uncheck the "Default" checkbox for the "ConfigURL" field under ITSP Provisioning and input the provisioning URL `http://p3.zswitch.net/$DM.xml`.
-    ![Obihai Auto Provisioning]((./images/obihai-auto-provisioning.png)
+    ![Obihai Auto Provisioning](./images/obihai-auto-provisioning.png)
     - Please ensure there are no extra spaces or characters in this field. Click "Submit" on the bottom of the page, then the Reboot button on the top right.
     ![Obihai Submit Reboot](images/obihai-submit-reboot.png)
     - This may take up to a few minutes, but if done correctly, you’ll notice your device reboot as it is provisioning. You are now all set up.  In the end, your page should look like this:
