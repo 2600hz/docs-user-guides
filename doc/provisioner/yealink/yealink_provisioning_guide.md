@@ -17,8 +17,9 @@ This is a guide to auto-provision a [Yealink](http://yealink.com/product_list.as
 4. Enter the IP Address and Login
     - In your browser, enter this IP address. When logging in for the first time, the default username is admin and password is admin.
     - The page should look something like this:
-    ![Yealink Start](images/yealink-start.png)
+    ![Yealink Start](./images/yealink-start.png)
 5. Autoprovision Device
     - Most of the information as you will see has already been pre-populated. You’ll need to click on Settings (or Phone on T3x Series) on the top tab, then click on Autoprovision on the left sub-tab. In the "Server URL," input the provisioning URL `http://p3.zswitch.net`.
-    ![Yealink Auto Provision](images/yealink-auto-provision.png)
+    ![Yealink Auto Provision](./images/yealink-auto-provision.png)
     - Please ensure there are no extra spaces or characters in this field. Click “Confirm” on the bottom of the page, then “Autoprovision Now”.  This may take up to a few minutes, but if done correctly, you’ll notice your device reboot as it is provisioning. You are now all set up.  In the end, your page should look like this:
+    ![Yealink End](./images/yealink-end.png)
