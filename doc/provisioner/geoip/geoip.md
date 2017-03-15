@@ -5,10 +5,11 @@ This is a guide on Provisioner's GeoIP feature. Here we explain what it does and
 > Anyone using our hosted provisioning service to provision phones.
 
 ## What you should know
-The following are descriptions of terms used in this guide
+The following are descriptions of terms used in this guide:
+
 | Term | Descriptions |
 | --- | --- |
-| Initial Provisioning Phase | This is the first phase of auto-provisioning that happens with a brand new device or factory reset device. This was introduced with the [Security Update](security/security.md). |
+| Initial Provisioning Phase | This is the first phase of auto-provisioning that happens with a brand new device or factory reset device. This was introduced with the [Security Update](../security/security.md). |
 
 ## What does it do?
 The GeoIP feature of Provisioner was built to select the closest outbound proxy to the phone when it is initially provisioned and using the global default proxy settings. This way system administrators do not need to manually change the outbound proxy settings for each phone. However, setting the proxies at the Provider or Account level will disable this feature.
@@ -26,5 +27,5 @@ When first installing Provisioner, we will create a cluster document in our data
 	- Longitude and Latitude (optional): Longitude and Latitude coordinates for calculating closest proxy
 If you are using SRV records for [failover](../failover/failover.md), then we need a list of proxy addresses with the following information:
 	- IP: IP address of the primary media server. This is used to determine the geolocation to use this proxy setting
-	- Primary Address: Hostname of the primary outbound proxy. 
+	- Primary Address: Hostname of the primary outbound proxy.
 	- Longitude and Latitude (optional): Longitude and Latitude coordinates for calculating closest proxy
