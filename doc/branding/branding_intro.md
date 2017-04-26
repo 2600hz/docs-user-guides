@@ -8,19 +8,25 @@ The Branding app allows customization of Monster UI to make it your own. Visuals
 ## There are 4 main sections in the Branding App:
 
 ### General
-    
-    General UI Branding consists of customizing company logos, icons, and other visuals. It also sets important info for setting
-    default information for all users under the account.  
+
+```
+General UI Branding consists of customizing company logos, icons, and other visuals. It also sets important info for setting default information for all users under the account.
+```
 
 ### Advanced
 
-    Advanced Branding allows admins to set and configure how you handle Number Porting and Carrier routing information
-    
+```
+Advanced Branding allows admins to set and configure how you handle Number Porting and Carrier routing information
+```
+
 ### Templates
 
-    Templates allow administrators to setup customized e-mail notifications that the system will to e-mail their users of important
-    information and changes.
-    
+```
+Templates allow administrators to setup customized e-mail notifications that the system will to e-mail their users of important information and changes.
+```
+
 ### DNS Helper
 
-    DNS Helper assists you in providing you with information about setting up your customer DNS records, as well as testing them.
+```
+DNS Helper assists you in providing you with information about setting up your customer DNS records, as well as testing them.
+```

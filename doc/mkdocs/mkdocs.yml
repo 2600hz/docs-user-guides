@@ -1,5 +1,4 @@
 site_name: Product Documentation
-theme_dir: 2600Hz_theme
 
 markdown_extensions:
   - pyembed.markdown
@@ -18,22 +17,30 @@ pages:
     - 'doc/onboarding/first_office/README.md'
 - 'Branding':
   - 'doc/branding/README.md'
+  - 'doc/branding/branding_intro.md'
+  - 'doc/branding/requirements.md'
 - 'Carriers':
   - 'doc/carriers/README.md'
 - 'Conferences':
   - 'doc/conferences/README.md'
+  - 'doc/conferences/overview.md'
 - 'Faxing':
   - 'doc/faxing/README.md'
   - 'SmartPBX Faxboxes': 'doc/faxing/smartpbx_faxbox.md'
   - 'Notifications': 'doc/faxing/fax_event_notifications.md'
 - 'Mobile':
   - 'doc/mobile/README.md'
-- 'Numbers':
-  - 'doc/numbers/overview.md'
+- 'Number Management':
+  - 'doc/numbers/README.md'
+  - 'Overview': 'doc/numbers/overview.md'
+  - 'Blacklisting/Blocking': 'doc/numbers/number_blocking.md'
 - 'PBXes':
   - 'doc/pbxes/README.md'
 - 'Porting':
   - 'doc/porting/README.md'
+  - 'doc/porting/overview.md'
+  - 'doc/porting/submit-port-request.md'
+  - 'doc/porting/monitor-port-request.md'
 - 'Provisioner':
   - 'doc/provisioner/prov_start_guide.md'
   - 'Configuring Failover': 'doc/provisioner/failover/failover.md'
