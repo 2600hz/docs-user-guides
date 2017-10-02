@@ -86,6 +86,8 @@ By default the user will be sent an email notification when/if the fax is succes
 It will also show up in the user's User Portal, Fax tab. See User's Fax History below.
 It the fax fails sending, a failure notification will be sent to the user's email address.
 
+__Important if you manage carriers.__ Outbound fax calls are set with a "fax" flag and thus carriers that you want to be available for handling outbound fax call must be configured with the "fax" flag. Caution, there is a "Require Flags" option which means that carrier will only handle calls with listed flags. This option you most likely do NOT want checked. I you see an error "no available resources" it is likely this flag is not configured on a carrier.
+
 
 ## User's Fax History
 
