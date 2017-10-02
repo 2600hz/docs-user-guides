@@ -4,7 +4,7 @@ Setting up for users to be able to send an email that will be delivered to a fax
 Setting up for faxes to an account number to be delivered as an email to an email address.
 
 > Who can use this feature?
-> Faxing is available for all platforms including opensource.
+> Faxing is available for all platforms including open-source.
 > Management of fax/email settings is done by a reseller or account admin.
 > Users can view their sent and received faxes in the user portal.
 
@@ -27,7 +27,7 @@ Setting up for faxes to an account number to be delivered as an email to an emai
 
 ## Set up user for faxing
 
-Setup with SmartBPX is very simple.
+Setup with SmartPBX is very simple.
 
    1. Navigate to SmartPBX users.
    ![Users](users.png)
@@ -39,7 +39,7 @@ Setup with SmartBPX is very simple.
    ![Change Faxbox email address](faxbox_email_address.png)
 
    4. Click the user's Features and the Faxbox feature.
-   ![Faxbox Feature](faxbox_featurepng)
+   ![Faxbox Feature](faxbox_feature.png)
 
    5. Click Enable
    ![Enable](enable_faxbox.png)
@@ -86,7 +86,7 @@ By default the user will be sent an email notification when/if the fax is succes
 It will also show up in the user's User Portal, Fax tab. See User's Fax History below.
 It the fax fails sending, a failure notification will be sent to the user's email address.
 
-__Important if you manage carriers.__ Outbound fax calls are set with a "fax" flag and thus carriers that you want to be available for handling outbound fax call must be configured with the "fax" flag. Caution, there is a "Require Flags" option which means that carrier will only handle calls with listed flags. This option you most likely do NOT want checked. I you see an error "no available resources" it is likely this flag is not configured on a carrier.
+__Important if you manage carriers.__ Outbound fax calls are set with a "fax" flag and thus carriers that you want to be available for handling outbound fax calls must be configured with the "fax" flag. Caution, there is a "Require Flags" option which means that carrier will only handle calls with listed flags. This option you most likely do NOT want checked. If you see an error "no available resources" it is likely this flag is not configured on a carrier.
 
 
 ## User's Fax History

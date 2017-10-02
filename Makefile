@@ -1,7 +1,7 @@
 ROOT = $(shell readlink -f .)
 DOCS_ROOT=$(ROOT)/doc/mkdocs
 
-docs: docs-install docs-validate docs-report docs-setup docs-build
+docs: docs-install docs-validate docs-spellcheck docs-report docs-setup docs-build
 
 docs-install:
 	@pip -q install --upgrade pip
@@ -9,6 +9,9 @@ docs-install:
 
 docs-validate:
 	@$(ROOT)/scripts/validate_mkdocs.py
+
+docs-spellcheck:
+	@$(ROOT)/scripts/check-spelling.bash
 
 docs-report:
 	@$(ROOT)/scripts/reconcile_docs_to_index.bash
