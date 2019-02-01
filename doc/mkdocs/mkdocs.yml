@@ -1,8 +1,5 @@
 site_name: Product Documentation
 
-markdown_extensions:
-  - pyembed.markdown
-
 pages:
 - 'index.md'
 - 'Onboarding':
