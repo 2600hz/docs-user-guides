@@ -11,6 +11,7 @@
 - [Yealink](./yealink/yealink_provisioning_guide.md)
 - Grandstream
     - [GXP21xx Series](./grandstream/gxp21xx_provisioning_guide.md)
+- [Htek](./htek/htek_provisioning_guide.md)
 
 ## Custom Config Files
 - We know that our Provisioner does not cover every feature available in the phones, but some vendors do support multiple config files. You can use custom config files to set features we do not cover with our Provisioner or override settings we don't expose.
