@@ -10,7 +10,7 @@ This is a guide to auto-provision a Htek [UC9xx](http://www.htek.com/products/UC
 1. Add Device
     - First add the device to Provisioner by following the instructions here: [Adding Devices Guide](../prov_start_guide.md)
 2. Reset to Factory Settings
-    - Please also make sure that you have reset your device to factory settings. To do so, To do so dial `*`, `*`, `*`, and then hold the `x` button for 10 seconds.
+    - Please also make sure that you have reset your device to factory settings. To do so dial `*`, `*`, `*`, and then hold the `x` button for 10 seconds.
 3. Obtain Phone’s IP Address
     - The IP address for a Htek UC9xx device can be found on the device itself. In order to provision a Htek UC9xx phone, you will first need to get its IP address in order to access the phone's web interface. The IP address on Htek UC9xx devices can easily be found by pressing the center button on the directional pad, select "Information". You should see a line with, for example: "IPV4: 10.10.9.88". Please make sure that your device jack is plugged in. If it is not plugged in, it will read IP: 0.0.0.0.
 4. Enter the IP Address and Login
