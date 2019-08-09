@@ -43,11 +43,16 @@ pages:
   - 'Configuring Failover': 'doc/provisioner/failover/failover.md'
   - 'Configuring GeoIP': 'doc/provisioner/geoip/geoip.md'
   - 'Security': 'doc/provisioner/security/security.md'
+  - 'Debugging':
+    - 'Checking IP': 'doc/provisioner/debug/ip_check.md'
+    - 'View Logs and Config Files': 'doc/provisioner/debug/logs_config_files.md'
   - 'Phones':
     - 'Cisco':
       - 'doc/provisioner/cisco/cisco_provisioning_guide.md'
     - 'Grandstream':
       - 'GXP 21xx': 'doc/provisioner/grandstream/gxp21xx_provisioning_guide.md'
+    - 'Htek':
+      - 'UC9xx': 'doc/provisioner/htek/htek_provisioning_guide.md'
     - 'Obihai':
       - 'doc/provisioner/obihai/obihai_provisioning_guide.md'
     - 'Polycom':
