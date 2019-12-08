@@ -74,3 +74,78 @@ Account unauthorized
     "request_id": "{REQUEST_ID}",
     "status": "error"
 }
+
+
+
+
+Add a list of numbers to the database
+Note: set field "create_with_state" in payload to your desired number state (defaults to "reserved").
+
+PUT /v2/accounts/{ACCOUNT_ID}/phone_numbers/collection
+
+curl -v -X PUT \
+    -H "X-Auth-Token: {AUTH_TOKEN}" \
+    -d '{"data":{"numbers": ["{PHONE_NUMBER1}", "{PHONE_NUMBER2}", "{PHONE_NUMBER3}"]}}' \
+    http://{SERVER}:8000/v2/accounts/{ACCOUNT_ID}/phone_numbers/collection
+Success Response
+
+{
+    "auth_token": "{AUTH_TOKEN}",
+    "data": {
+        "success": {
+            "{PHONE_NUMBER1}": {
+                "_read_only": {
+                    "created": 63628454912,
+                    "modified": 63628454912,
+                    "state": "reserved"
+                },
+                "id": "{PHONE_NUMBER1}",
+                "state": "reserved"
+            },
+            "{PHONE_NUMBER2}": {
+                "_read_only": {
+                    "created": 63628454912,
+                    "modified": 63628454912,
+                    "state": "reserved"
+                },
+                "id": "{PHONE_NUMBER2}",
+                "state": "reserved"
+            },
+            "{PHONE_NUMBER3}": {
+                "_read_only": {
+                    "created": 63628454912,
+                    "modified": 63628454912,
+                    "state": "reserved"
+                },
+                "id": "{PHONE_NUMBER3}",
+                "state": "reserved"
+            }
+        }
+    },
+    "request_id": "{REQUEST_ID}",
+    "revision": "{REVISION}",
+    "status": "success"
+}
+Failure
+
+{
+    "auth_token": "{AUTH_TOKEN}",
+    "data": {
+        "{PHONE_NUMBER2}": {
+            "cause": "{PHONE_NUMBER2}",
+            "code": 409,
+            "error": "number_exists",
+            "message": "number {PHONE_NUMBER2} already exists"
+        },
+        "{PHONE_NUMBER3}": {
+            "cause": "{PHONE_NUMBER3}",
+            "code": 409,
+            "error": "number_exists",
+            "message": "number {PHONE_NUMBER3} already exists"
+        }
+    },
+    "error": "400",
+    "message": "client error",
+    "request_id": "{REQUEST_ID}",
+    "status": "error"
+}
