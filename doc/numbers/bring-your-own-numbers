@@ -1,6 +1,9 @@
 Add a number to the database
 Adds a number to the database, returning its properties.
 
+Admin accounts are allowed to create available numbers if their pvt_wnm_allow_additions flag is set to true, 
+u set tbhis field in your admin account database
+
 !!! note Set field "create_with_state" in payload to your desired number state (defaults to "reserved").
 
 !!! note Payload is optional.
