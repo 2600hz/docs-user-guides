@@ -1,0 +1,76 @@
+Add a number to the database
+Adds a number to the database, returning its properties.
+
+!!! note Set field "create_with_state" in payload to your desired number state (defaults to "reserved").
+
+!!! note Payload is optional.
+
+PUT /v2/accounts/{ACCOUNT_ID}/phone_numbers/{PHONE_NUMBER}
+
+curl -v -X PUT \
+    -H "X-Auth-Token: {AUTH_TOKEN}" \
+    -d '{"data": {"my_own_field": {}}}' \
+    http://{SERVER}:8000/v2/accounts/{ACCOUNT_ID}/phone_numbers/{PHONE_NUMBER}
+Success Response
+{
+    "auth_token": "{AUTH_TOKEN}",
+    "data": {
+        "_read_only": {
+            "created": 63627848989,
+            "modified": 63627848989,
+            "state": "reserved"
+        },
+        "id": "{PHONE_NUMBER}",
+        "state": "reserved",
+        "my_own_field": {}
+    },
+    "request_id": "{REQUEST_ID}",
+    "revision": "{REVISION}",
+    "status": "success"
+}
+Failure Responses
+Number already exists
+
+{
+    "auth_token": "{AUTH_TOKEN}",
+    "data": {
+        "cause": "{PHONE_NUMBER}",
+        "code": 409,
+        "error": "number_exists",
+        "message": "number {PHONE_NUMBER} already exists"
+    },
+    "error": "409",
+    "message": "number_exists",
+    "request_id": "{REQUEST_ID}",
+    "status": "error"
+}
+Number does not conform to E.164 format
+
+A non-conforming {PHONE_NUMBER}: "+141510010+15".
+
+{
+    "auth_token": "{AUTH_TOKEN}",
+    "data": {
+        "cause": "{PHONE_NUMBER}",
+        "code": 404,
+        "error": "not_reconcilable",
+        "message": "number {PHONE_NUMBER} is not reconcilable"
+    },
+    "error": "404",
+    "message": "not_reconcilable",
+    "request_id": "{REQUEST_ID}",
+    "status": "error"
+}
+Account unauthorized
+
+{
+    "auth_token": "{AUTH_TOKEN}",
+    "data": {
+        "message": "unknown failure",
+        "unauthorized": "Not authorized to perform requested number operation"
+    },
+    "error": "500",
+    "message": "unauthorized",
+    "request_id": "{REQUEST_ID}",
+    "status": "error"
+}
