@@ -1,4 +1,4 @@
-# Provisioning Yealink
+# Provisioning Panasonic
 
 This is a guide to auto-provision a [Panasonic TGP600](https://na.panasonic.com/us/office-products-unified-communications/unified-communications/sip-phones/kx-tgp600-sip-cordless).
 
