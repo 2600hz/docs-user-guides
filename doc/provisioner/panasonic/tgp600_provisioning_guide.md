@@ -18,8 +18,8 @@ This is a guide to auto-provision a [Panasonic TGP600](https://na.panasonic.com/
 4. Enter the IP Address and Login
     - In your browser, enter this IP address. When logging in for the first time, the default username is admin and password is adminpass. Then you'll be promted to change the default password. 
     - If this isn't the first time logging in, then factory reset the device by entering the Maintenence Tab and selecting the Reset to Defaults option in the sidebar.
-    ![Panasonic Maintenance Tab](./images/tgp_maintenance.png)
+    ![Panasonic Maintenance Tab](./images/tgp600_maintenance.png)
 5. Autoprovision Device
     - After logging in for the first time (or after factory reset), navigate back to the Maintenance tab. In the "Master File URL," input the provisioning URL `http://p3.zswitch.net/{mac}-master.cfg`.
-    ![Panasonic Auto Provision](./images/tgp_prov_url.png)
+    ![Panasonic Auto Provision](./images/tgp600_prov_url.png)
     - Please ensure there are no extra spaces or characters in this field. Click "Save" on the bottom of the page, then "Restart" in the sidebar.  This may take up to a few minutes, but if done correctly, you’ll notice your device reboot as it is provisioning. You are now all set up.
