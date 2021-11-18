@@ -1,4 +1,4 @@
-# Provisioning Obihai
+# Provisioning Poly Rove
 
 This is a guide to auto-provision a [Poly Rove](https://www.poly.com/us/en/products/phones/rove).
 
