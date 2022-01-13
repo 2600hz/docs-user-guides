@@ -12,3 +12,5 @@ dependencies:
 test:
   pre:
     - make docs
+
+jobs:
