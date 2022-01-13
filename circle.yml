@@ -13,6 +13,12 @@ test:
   pre:
     - make docs
 
+workflows:
+  version: 2
+  build_branch:
+    jobs:
+      - build_centos7
+
 jobs:
   build_centos7:
     docker:
