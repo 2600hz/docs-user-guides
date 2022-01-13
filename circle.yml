@@ -14,4 +14,7 @@ test:
     - make docs
 
 jobs:
-  - test
+  build_centos7:
+    docker:
+      - image: offical2600hz/php-packager-72:1.0-centos-7
+        user: circleci
