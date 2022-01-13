@@ -24,3 +24,9 @@ jobs:
     docker:
       - image: offical2600hz/php-packager-72:1.0-centos-7
         user: circleci
+    steps:
+    - checkout
+    - run:
+        name: Build message
+        command: |
+          echo "Build message"
