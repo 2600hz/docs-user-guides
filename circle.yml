@@ -14,3 +14,4 @@ test:
     - make docs
 
 jobs:
+  - test
