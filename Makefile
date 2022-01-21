@@ -28,8 +28,7 @@ $(CI_DIR):
 docs: docs-install docs-validate docs-spellcheck docs-report docs-setup docs-build
 
 docs-install:
-	@pip -q install --upgrade pip
-	@pip -q install PyYAML mkdocs pyembed-markdown
+	@pip install --user PyYAML mkdocs pyembed-markdown
 
 docs-validate:
 	@$(ROOT)/scripts/validate_mkdocs.py
