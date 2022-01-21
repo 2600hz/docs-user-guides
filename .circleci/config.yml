@@ -1,20 +1,19 @@
-version: 2
-
-machine:
-  python:
-    version: 2.7.13
-  post:
-    - pyenv global 2.7.13
-
-dependencies:
-  pre:
-    - pip -q install --upgrade pip
-    - pip -q install PyYAML mkdocs pyembed-markdown
-
-test:
-  pre:
-    - make docs
+---
+version: 2.1
 
 jobs:
   build:
+    docker:
+      - image: circleci/python:3.6.4
     working_directory: ~/docs-user-guides
+
+    steps:
+      - checkout
+      - run:
+          command: sudo apt install cpio
+      - run:
+          command: |
+            sudo python -mpip install --upgrade pip
+            sudo python -mpip install --upgrade PyYAML mkdocs pyembed-markdown
+      - run:
+          command: make -C ${CIRCLE_WORKING_DIRECTORY} docs

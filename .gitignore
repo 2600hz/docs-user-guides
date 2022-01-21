@@ -2,3 +2,4 @@ doc/mkdocs/docs
 /doc/mkdocs/mkdocs.local.yml
 doc/mkdocs/site
 doc/mkdocs/theme
+/.circleci/circleci
