@@ -12,6 +12,8 @@ jobs:
       - run:
           command: sudo apt install cpio
       - run:
-          command: python -mpip install --user --upgrade PyYAML mkdocs pyembed-markdown
+          command: |
+            sudo python -mpip install --upgrade pip
+            sudo python -mpip install --upgrade PyYAML mkdocs pyembed-markdown
       - run:
           command: make -C ${CIRCLE_WORKING_DIRECTORY} docs

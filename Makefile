@@ -29,6 +29,7 @@ docs: docs-install docs-validate docs-spellcheck docs-report docs-setup docs-bui
 
 docs-install:
 	@python -mpip install --user --upgrade PyYAML mkdocs pyembed-markdown
+	@echo "$(whereis mkdocs)"
 
 docs-validate:
 	@$(ROOT)/scripts/validate_mkdocs.py
