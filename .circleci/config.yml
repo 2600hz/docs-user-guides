@@ -9,8 +9,8 @@ jobs:
     steps:
       - run:
           command: |
-            pip -q install --upgrade pip
-            pip -q install PyYAML mkdocs pyembed-markdown
+            sudo pip -q install --upgrade pip
+            sudo pip -q install PyYAML mkdocs pyembed-markdown
       - run:
           command: |
             make docs
