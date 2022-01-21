@@ -5,12 +5,10 @@ jobs:
   build:
     docker:
       - image: circleci/python:3.6.4
+    working_directory: ~/docs-user-guides
 
     steps:
       - run:
-          command: |
-            sudo pip -q install --upgrade pip
-            sudo pip -q install PyYAML mkdocs pyembed-markdown
+          command: pip install --user PyYAML mkdocs pyembed-markdown
       - run:
-          command: |
-            make docs
+          command: make docs
