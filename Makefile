@@ -25,7 +25,7 @@ $(CI_VALIDATOR): | $(CI_DIR)
 $(CI_DIR):
 	@mkdir $(CI_DIR)
 
-docs: ci docs-install docs-validate docs-spellcheck docs-report docs-setup docs-build
+docs: docs-install docs-validate docs-spellcheck docs-report docs-setup docs-build
 
 docs-install:
 	@pip -q install --upgrade pip
