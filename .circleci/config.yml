@@ -8,7 +8,8 @@ jobs:
     working_directory: ~/docs-user-guides
 
     steps:
+      - checkout
       - run:
           command: pip install --user PyYAML mkdocs pyembed-markdown
       - run:
-          command: make docs
+          command: make -C ${CIRCLE_WORKING_DIRECTORY} docs
