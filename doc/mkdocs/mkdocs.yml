@@ -47,6 +47,8 @@ pages:
     - 'Checking IP': 'doc/provisioner/debug/ip_check.md'
     - 'View Logs and Config Files': 'doc/provisioner/debug/logs_config_files.md'
   - 'Phones':
+    - 'Alcatel-Lucent Enterprise':
+      - 'doc/provisioner/ale/ale_provisioning_guide.md'
     - 'Cisco':
       - 'doc/provisioner/cisco/cisco_provisioning_guide.md'
     - 'Grandstream':
@@ -57,6 +59,7 @@ pages:
       - 'doc/provisioner/obihai/obihai_provisioning_guide.md'
     - 'Polycom':
       - 'doc/provisioner/polycom/polycom_provisioning_guide.md'
+      - 'doc/provisioner/polycom/rove_provisioning_guide.md'
     - 'Softphones':
       - 'Zoiper': 'doc/manual_phone_config/zoiper.md'
     - 'Yealink':
