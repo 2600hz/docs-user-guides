@@ -1,0 +1,4 @@
+The monster numbers app does not handle international phonenumbers, not even if your provider does.
+I am not sure if the erlang code for various did providers can handle it, as it was never the intention at the start.
+
+However, since Kazoo is being used all over the globe now, i can imagine there is a solution, but its just not shared at the moment.
