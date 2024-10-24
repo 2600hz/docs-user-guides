@@ -8,8 +8,7 @@ This is a guide to auto-provision a [Polycom](http://www.polycom.com/voice-confe
 ## Steps to Auto Provision device
 
 1. Add Device
-    - First add the device to Provisioner by following the instructions here:
-    ![Adding Devices Guide](images/prov_start_guide.md)
+    - First add the device to Provisioner by following the instructions in our [Adding Devices Guide](../prov_start_guide.md).
 2. Reset to Factory Settings
     - Please also make sure that you have reset your device to factory settings by following these steps:
     - Click on the Menu
